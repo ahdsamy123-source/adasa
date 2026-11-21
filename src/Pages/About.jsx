@@ -1,6 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import data from "../data/posts.json";
+import data from "../data/Posts.json";
 
 // كل كاتب بيظهر مرة واحدة، من بيانات المقالات
 const authors = [...new Map(data.posts.map((p) => [p.author.name, p.author])).values()];

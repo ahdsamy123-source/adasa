@@ -1,6 +1,6 @@
 import { useMemo, useState } from "react";
 import { Container, Row, Col, Form } from "react-bootstrap";
-import data from "../data/posts.json";
+import data from "../data/Posts.json";
 import { fmtDate } from "../utils/format.js";
 
 const articles = data.posts;

@@ -1,6 +1,6 @@
 import { Container, Row, Col, Form, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import data from "../data/posts.json";
+import data from "../data/Posts.json";
 import { fmtDate } from "../utils/format.js";
 
 const articles = data.posts;
