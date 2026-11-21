@@ -1,7 +1,7 @@
 
 import Home from "./Pages/Home.jsx";
 import Blog from "./Pages/Blog.jsx";
-import About from "./pages/About.jsx";
+import About from "./Pages/About.jsx";
 
 import MainLayout from "./Layouts/MainLayout.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
