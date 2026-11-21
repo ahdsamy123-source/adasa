@@ -17,10 +17,11 @@ const router = createBrowserRouter([
       { path: "about", element: <About /> }
     ],
   },
-   {
+],
+ {
     basename: "/adasa",
   }
-]);
+);
 
 export default function App() {
   return <RouterProvider router={router} />;
