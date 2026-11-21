@@ -12,8 +12,7 @@ export default function Navbar() {
     <BsNavbar expand="lg" variant="dark" sticky="top" className="site-nav py-3">
       <Container>
         <BsNavbar.Brand as={Link} to="/" className="d-flex align-items-center gap-2">
-          <span className="logo-box"><i className="bi bi-camera"></i></span>
-          <span>
+           <img src="/logo-GdqARQRt.png" alt="عدسة" className="logo-img" />          <span>
             <span className="d-block fw-bold lh-1">عدسة</span>
             <small className="text-amber" style={{ fontSize: ".7rem" }}>عالم التصوير الفوتوغرافي</small>
           </span>

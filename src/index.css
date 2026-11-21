@@ -47,7 +47,11 @@ body {
   color: var(--muted); border-radius: 999px; padding: .45rem 1.1rem; font-size: .9rem;
 }
 .nav-pills-wrap .nav-link.active { background: var(--orange); color: #fff; }
-
+.logo-img {
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+}
 /* Hero */
 .hero {
   background-image:
